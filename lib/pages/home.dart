@@ -29,18 +29,21 @@ class HomePage extends StatelessWidget {
               borderRadius: BorderRadius.circular(10)),
         ),
         actions: [
-          Container(
-            margin: EdgeInsets.all(10),
-            width: 37,
-            alignment: Alignment.center,
-            child: SvgPicture.asset(
-              'assets/icons/dots.svg',
-              height: 5,
-              width: 5,
+          GestureDetector(
+            onTap: () {},
+            child: Container(
+              margin: EdgeInsets.all(10),
+              width: 37,
+              alignment: Alignment.center,
+              child: SvgPicture.asset(
+                'assets/icons/dots.svg',
+                height: 5,
+                width: 5,
+              ),
+              decoration: BoxDecoration(
+                  color: Color(0xffF7F8F8),
+                  borderRadius: BorderRadius.circular(10)),
             ),
-            decoration: BoxDecoration(
-                color: Color(0xffF7F8F8),
-                borderRadius: BorderRadius.circular(10)),
           ),
         ],
       ),
