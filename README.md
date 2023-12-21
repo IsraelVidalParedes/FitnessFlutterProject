@@ -1,6 +1,6 @@
-# fitness
+# Fitness app
 
-A new Flutter project.
+Starter flutter project
 
 ## Getting Started
 
